@@ -1,0 +1,41 @@
+*
+/*
+section{
+    
+   
+    background: url(../images/img1.jpg) no-repeat;
+    background-size: cover;
+    height:calc(100vh - 80px);
+    
+}
+*/
+
+/* The grid: Four equal columns that floats next to each other */
+.gallery{
+    width: 35rem;
+    margin: 4rem auto;
+
+}
+
+#main-image{
+
+    width: 100%;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.thumbnailcontainer{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.thumbnail{
+    width: 100px;
+    height: 100px;
+    margin: 0   10px;
+    cursor: pointer;
+
+}

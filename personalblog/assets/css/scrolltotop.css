@@ -1,0 +1,26 @@
+#to-top{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: bottom 200ms, transform 200ms;
+}
+
+#to-top:hover{
+    bottom: 45px;
+}
+#to-top.show{
+    transform: scale(1);
+}
+html {
+    scroll-behavior: smooth;
+}
